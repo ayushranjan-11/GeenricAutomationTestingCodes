@@ -27,7 +27,7 @@ public class SeleniumItemTestLearning {
 		Thread.sleep(2000);
 		nonStaticMethod.staticDropDownSelectWithActions(driver);
 		Thread.sleep(2000);
-		nonStaticMethod.fromAndToCitySelectDyanamicDropDown(driver);
+		nonStaticMethod.fromAndToCitySelectDynamicDropDown(driver);
 	}
 
 	public void staticDropDownSelect(WebDriver driver) {
@@ -65,7 +65,7 @@ public class SeleniumItemTestLearning {
 		System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
 	}
 
-	public void fromAndToCitySelectDyanamicDropDown(WebDriver driver) {
+	public void fromAndToCitySelectDynamicDropDown(WebDriver driver) {
 		driver.findElement(By.cssSelector("#ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		
 	}
