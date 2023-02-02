@@ -17,8 +17,8 @@ public class BrokenLinkCheck {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		List<String> passingUrls = new ArrayList<String>();
-		passingUrls.add("https://vezitadoc.com/");
-//		passingUrls.add("https://ideausher.com/about-us/");
+		passingUrls.add("https://ideausher.com/");
+		passingUrls.add("https://ideausher.com/about-us/");
 //		passingUrls.add("https://ideausher.com/portfolio/");
 //		passingUrls.add("https://ideausher.com/services/");
 //		passingUrls.add("https://ideausher.com/services/blockchain-development/");
