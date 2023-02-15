@@ -7,14 +7,14 @@ public class javaPractise {
         int months =0;
         int days;
         if(number>0) {
-            int year = number/365;
-            //System.out.println(year);
-            if(number%365>30) {
+            int year = number/365; //Calculating year out of given number
+
+            if(number%365>30) { //Checking if month calculation is required or not
                 months = (number%365)/30;
                 days = (number%365)%30;
             } else days = (number%365);
 
-            //System.out.println(months);
+
             System.out.println(number+" Days is "+year+" years"+" "+months+" months"+" "+days+" days");
         } else System.out.println("Check your input");
 
